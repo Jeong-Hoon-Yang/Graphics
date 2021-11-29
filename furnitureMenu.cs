@@ -8,6 +8,7 @@ public class furnitureMenu : MonoBehaviour
     public GameObject textureMenu;
     public GameObject Menu;
     public GameObject Open_btn;
+    public bool furnitureChoosed;
 
     public GameObject Ball_1_BP;
     public GameObject Ball_2_BP;
@@ -47,6 +48,7 @@ public class furnitureMenu : MonoBehaviour
     }
     public void Spawn_Ball_1_BP()
     {
+        furnitureChoosed = true;
         OneRoom_Menu.SetActive(false);
         Menu.SetActive(false);
         gameObject.SetActive(false);
@@ -56,6 +58,7 @@ public class furnitureMenu : MonoBehaviour
     }
     public void Spawn_Ball_2_BP()
     {
+        furnitureChoosed = true;
         OneRoom_Menu.SetActive(false);
         Menu.SetActive(false);
         gameObject.SetActive(false);
@@ -65,6 +68,7 @@ public class furnitureMenu : MonoBehaviour
     }
     public void Spawn_BookCase_1_BP()
     {
+        furnitureChoosed = true;
         OneRoom_Menu.SetActive(false);
         Menu.SetActive(false);
         gameObject.SetActive(false);
@@ -74,6 +78,7 @@ public class furnitureMenu : MonoBehaviour
     }
     public void Spawn_BookCase_2_BP()
     {
+        furnitureChoosed = true;
         OneRoom_Menu.SetActive(false);
         Menu.SetActive(false);
         gameObject.SetActive(false);
@@ -83,6 +88,7 @@ public class furnitureMenu : MonoBehaviour
     }
     public void Spawn_Books_1_1_BP()
     {
+        furnitureChoosed = true;
         OneRoom_Menu.SetActive(false);
         Menu.SetActive(false);
         gameObject.SetActive(false);
@@ -92,6 +98,7 @@ public class furnitureMenu : MonoBehaviour
     }
     public void Spawn_Chair_1_BP()
     {
+        furnitureChoosed = true;
         OneRoom_Menu.SetActive(false);
         Menu.SetActive(false);
         gameObject.SetActive(false);
@@ -101,6 +108,7 @@ public class furnitureMenu : MonoBehaviour
     }
     public void Spawn_Chair_2_BP()
     {
+        furnitureChoosed = true;
         OneRoom_Menu.SetActive(false);
         Menu.SetActive(false);
         gameObject.SetActive(false);
@@ -110,6 +118,7 @@ public class furnitureMenu : MonoBehaviour
     }
     public void Spawn_Chair_3_BP()
     {
+        furnitureChoosed = true;
         OneRoom_Menu.SetActive(false);
         Menu.SetActive(false);
         gameObject.SetActive(false);
@@ -119,6 +128,7 @@ public class furnitureMenu : MonoBehaviour
     }
     public void Spawn_Chair_4_BP()
     {
+        furnitureChoosed = true;
         OneRoom_Menu.SetActive(false);
         Menu.SetActive(false);
         gameObject.SetActive(false);
@@ -128,6 +138,7 @@ public class furnitureMenu : MonoBehaviour
     }
     public void Spawn_Chair_5_BP()
     {
+        furnitureChoosed = true;
         OneRoom_Menu.SetActive(false);
         Menu.SetActive(false);
         gameObject.SetActive(false);
@@ -137,6 +148,7 @@ public class furnitureMenu : MonoBehaviour
     }
     public void Spawn_Chair_6_BP()
     {
+        furnitureChoosed = true;
         OneRoom_Menu.SetActive(false);
         Menu.SetActive(false);
         gameObject.SetActive(false);
@@ -146,6 +158,7 @@ public class furnitureMenu : MonoBehaviour
     }
     public void Spawn_Chair_7_BP()
     {
+        furnitureChoosed = true;
         OneRoom_Menu.SetActive(false);
         Menu.SetActive(false);
         gameObject.SetActive(false);
@@ -155,6 +168,7 @@ public class furnitureMenu : MonoBehaviour
     }
     public void Spawn_Chair_8_BP()
     {
+        furnitureChoosed = true;
         OneRoom_Menu.SetActive(false);
         Menu.SetActive(false);
         gameObject.SetActive(false);
@@ -164,6 +178,7 @@ public class furnitureMenu : MonoBehaviour
     }
     public void Spawn_CoffeTable_1_BP()
     {
+        furnitureChoosed = true;
         OneRoom_Menu.SetActive(false);
         Menu.SetActive(false);
         gameObject.SetActive(false);
@@ -173,6 +188,7 @@ public class furnitureMenu : MonoBehaviour
     }
     public void Spawn_CoffeTable_2_BP()
     {
+        furnitureChoosed = true;
         OneRoom_Menu.SetActive(false);
         Menu.SetActive(false);
         gameObject.SetActive(false);
@@ -182,6 +198,7 @@ public class furnitureMenu : MonoBehaviour
     }
     public void Spawn_CoffeTable_3_BP()
     {
+        furnitureChoosed = true;
         OneRoom_Menu.SetActive(false);
         Menu.SetActive(false);
         gameObject.SetActive(false);
@@ -191,6 +208,7 @@ public class furnitureMenu : MonoBehaviour
     }
     public void Spawn_CoffeTable_4_BP()
     {
+        furnitureChoosed = true;
         OneRoom_Menu.SetActive(false);
         Menu.SetActive(false);
         gameObject.SetActive(false);
@@ -200,6 +218,7 @@ public class furnitureMenu : MonoBehaviour
     }
     public void Spawn_Cooker_1_BP()
     {
+        furnitureChoosed = true;
         OneRoom_Menu.SetActive(false);
         Menu.SetActive(false);
         gameObject.SetActive(false);
@@ -209,6 +228,7 @@ public class furnitureMenu : MonoBehaviour
     }
     public void Spawn_Couch_1_BP()
     {
+        furnitureChoosed = true;
         OneRoom_Menu.SetActive(false);
         Menu.SetActive(false);
         gameObject.SetActive(false);
@@ -218,6 +238,7 @@ public class furnitureMenu : MonoBehaviour
     }
     public void Spawn_Couch_2_BP()
     {
+        furnitureChoosed = true;
         OneRoom_Menu.SetActive(false);
         Menu.SetActive(false);
         gameObject.SetActive(false);
@@ -227,6 +248,7 @@ public class furnitureMenu : MonoBehaviour
     }
     public void Spawn_Couch_3_BP()
     {
+        furnitureChoosed = true;
         OneRoom_Menu.SetActive(false);
         Menu.SetActive(false);
         gameObject.SetActive(false);
@@ -236,6 +258,7 @@ public class furnitureMenu : MonoBehaviour
     }
     public void Spawn_Headborad_1_1_BP()
     {
+        furnitureChoosed = true;
         OneRoom_Menu.SetActive(false);
         Menu.SetActive(false);
         gameObject.SetActive(false);
@@ -245,6 +268,7 @@ public class furnitureMenu : MonoBehaviour
     }
     public void Spawn_Headborad_1_2_BP()
     {
+        furnitureChoosed = true;
         OneRoom_Menu.SetActive(false);
         Menu.SetActive(false);
         gameObject.SetActive(false);
@@ -254,6 +278,7 @@ public class furnitureMenu : MonoBehaviour
     }
     public void Spawn_Pillow_1_BP()
     {
+        furnitureChoosed = true;
         OneRoom_Menu.SetActive(false);
         Menu.SetActive(false);
         gameObject.SetActive(false);
@@ -263,6 +288,7 @@ public class furnitureMenu : MonoBehaviour
     }
     public void Spawn_Pillow_2_BP()
     {
+        furnitureChoosed = true;
         OneRoom_Menu.SetActive(false);
         Menu.SetActive(false);
         gameObject.SetActive(false);
@@ -272,6 +298,7 @@ public class furnitureMenu : MonoBehaviour
     }
     public void Spawn_Refrigerator_1_BP()
     {
+        furnitureChoosed = true;
         OneRoom_Menu.SetActive(false);
         Menu.SetActive(false);
         gameObject.SetActive(false);
@@ -281,6 +308,7 @@ public class furnitureMenu : MonoBehaviour
     }
     public void Spawn_Refrigerator_2_BP()
     {
+        furnitureChoosed = true;
         OneRoom_Menu.SetActive(false);
         Menu.SetActive(false);
         gameObject.SetActive(false);
@@ -290,6 +318,7 @@ public class furnitureMenu : MonoBehaviour
     }
     public void Spawn_Vase_1_BP()
     {
+        furnitureChoosed = true;
         OneRoom_Menu.SetActive(false);
         Menu.SetActive(false);
         gameObject.SetActive(false);
@@ -299,6 +328,7 @@ public class furnitureMenu : MonoBehaviour
     }
     public void Spawn_Table_1_BP()
     {
+        furnitureChoosed = true;
         OneRoom_Menu.SetActive(false);
         Menu.SetActive(false);
         gameObject.SetActive(false);
